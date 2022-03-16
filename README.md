@@ -2,14 +2,18 @@
 
 
 Começar com react-pdf é extremamente simples.
-* INSTALL
-[npm i react-to-pdf]
 
-* USE
-[import Pdf from "react-to-pdf"]
+### INSTALL
 
-* CODE
-[<div className="App">
+npm i react-to-pdf
+
+### USE
+
+import Pdf from "react-to-pdf"
+
+### CODE
+
+<div className="App">
       <Pdf targetRef={ref} filename="code-example.pdf">
         {({ toPdf }) => <button onClick={toPdf}>Generate Pdf</button>}
       </Pdf>
@@ -17,7 +21,7 @@ Começar com react-pdf é extremamente simples.
       <div ref={ref}>        
         <h2>Teste!</h2>
       </div>
- </div>]
+ </div>
 
 https://www.npmjs.com/package/react-to-pdf
 
